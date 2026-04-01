@@ -7,18 +7,18 @@ A full-stack application for uploading, parsing, embedding, and searching PDF do
 ![Node.js](https://img.shields.io/badge/Node.js-16+-green)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-## 🎯 Features
+##  Features
 
-- **📤 Document Upload** - Upload PDF files through intuitive web interface
-- **🔍 PDF Parsing** - Advanced layout analysis and text extraction
-- **🧠 Embeddings** - Convert text to semantic vectors for intelligent search
-- **📊 Graph Storage** - Structure documents as knowledge graphs in Neo4j
-- **⚡ Vector Search** - Semantic search using Qdrant vector database
-- **🚀 Async Processing** - Background task processing with Celery
-- **🎨 Modern UI** - React + Vite frontend with real-time processing updates
-- **📱 Responsive Design** - Works on desktop and mobile devices
+- ** Document Upload** - Upload PDF files through intuitive web interface
+- ** PDF Parsing** - Advanced layout analysis and text extraction
+- ** Embeddings** - Convert text to semantic vectors for intelligent search
+- ** Graph Storage** - Structure documents as knowledge graphs in Neo4j
+- ** Vector Search** - Semantic search using Qdrant vector database
+- ** Async Processing** - Background task processing with Celery
+- ** Modern UI** - React + Vite frontend with real-time processing updates
+- ** Responsive Design** - Works on desktop and mobile devices
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────┐
@@ -46,7 +46,7 @@ A full-stack application for uploading, parsing, embedding, and searching PDF do
 └─────────────────┘
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone & Setup
 
@@ -90,7 +90,7 @@ npm run dev
 - **Neo4j:** http://localhost:7474
 - **Qdrant:** http://localhost:6333
 
-## 📚 Documentation
+##  Documentation
 
 - **[Setup Guide](./SETUP.md)** - Detailed installation and configuration
 - **[API Reference](./API_REFERENCE.md)** - Backend API documentation
@@ -112,7 +112,7 @@ npm run dev
 - **Axios** - HTTP client
 - **CSS3** - Styling
 
-## 📖 API Endpoints
+##  API Endpoints
 
 ### Document Management
 | Method | Endpoint | Description |
@@ -124,7 +124,7 @@ npm run dev
 
 See [API Reference](./API_REFERENCE.md) for detailed endpoint documentation.
 
-## 🔄 Workflow
+##  Workflow
 
 ```
 1. User uploads PDF
@@ -142,7 +142,7 @@ See [API Reference](./API_REFERENCE.md) for detailed endpoint documentation.
 5. Document ready for search & viewing
 ```
 
-## 📊 Database Schema
+##  Database Schema
 
 ### Neo4j Graph
 ```
@@ -162,7 +162,7 @@ document_chunks
 └── Book ID
 ```
 
-## 🎨 Frontend Features
+##  Frontend Features
 
 - ✅ Drag-and-drop file upload
 - ✅ Real-time processing progress
@@ -172,7 +172,7 @@ document_chunks
 - ✅ Metadata display
 - ✅ Responsive mobile design
 
-## 🔐 Security Considerations
+##  Security Considerations
 
 For production deployment:
 - [ ] Enable authentication (JWT)
@@ -184,7 +184,7 @@ For production deployment:
 - [ ] Add request logging
 - [ ] Implement access control
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Backend Won't Start
 ```bash
@@ -216,7 +216,7 @@ curl http://localhost:8000/docs
 
 See [SETUP.md](./SETUP.md#troubleshooting) for more solutions.
 
-## 📈 Performance Tips
+##  Performance Tips
 
 - Use batch uploads for multiple files
 - Optimize embeddings model for your use case
@@ -225,7 +225,7 @@ See [SETUP.md](./SETUP.md#troubleshooting) for more solutions.
 - Use CDN for frontend assets in production
 - Set up database indexing on frequently searched fields
 
-## 🚀 Deployment
+##  Deployment
 
 ### Docker Compose (Recommended)
 ```bash
@@ -247,11 +247,11 @@ docker-compose down
 - Caching: Redis cache for frequent searches
 - Load balancing: Nginx/HAProxy
 
-## 📝 License
+##  License
 
 MIT License - See LICENSE file for details
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions welcome! Please:
 1. Fork the repository
@@ -260,14 +260,14 @@ Contributions welcome! Please:
 4. Push to branch (`git push origin feature/improvement`)
 5. Open Pull Request
 
-## 📧 Support
+##  Support
 
 For issues, questions, or suggestions:
 - Open an [Issue](../issues)
 - Submit a [Pull Request](../pulls)
 - Contact: [your-email@example.com]
 
-## 🎯 Roadmap
+##  Roadmap
 
 - [ ] Multi-language support
 - [ ] Advanced OCR for scanned PDFs
@@ -278,7 +278,7 @@ For issues, questions, or suggestions:
 - [ ] Mobile app (React Native)
 - [ ] Batch processing API
 
-## 📚 Related Resources
+##  Related Resources
 
 - [Neo4j Documentation](https://neo4j.com/docs/)
 - [Qdrant Documentation](https://qdrant.tech/documentation/)
@@ -288,6 +288,5 @@ For issues, questions, or suggestions:
 
 ---
 
-**Made with ❤️ for document intelligence**
 
 Last Updated: March 2026
