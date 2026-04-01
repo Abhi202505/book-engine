@@ -164,13 +164,13 @@ document_chunks
 
 ##  Frontend Features
 
-- ✅ Drag-and-drop file upload
-- ✅ Real-time processing progress
-- ✅ Document visualization in grid layout
-- ✅ Semantic search with relevance scoring
-- ✅ Pagination and filtering
-- ✅ Metadata display
-- ✅ Responsive mobile design
+-  Drag-and-drop file upload
+-  Real-time processing progress
+-  Document visualization in grid layout
+-  Semantic search with relevance scoring
+-  Pagination and filtering
+-  Metadata display
+-  Responsive mobile design
 
 ##  Security Considerations
 
