@@ -1,4 +1,4 @@
-# 📄 PDF Document Intelligence System
+# PDF Document Intelligence System
 
 A full-stack application for uploading, parsing, embedding, and searching PDF documents using Neo4j, Qdrant, and machine learning.
 
@@ -18,33 +18,7 @@ A full-stack application for uploading, parsing, embedding, and searching PDF do
 - ** Modern UI** - React + Vite frontend with real-time processing updates
 - ** Responsive Design** - Works on desktop and mobile devices
 
-##  Architecture
 
-```
-┌─────────────────┐
-│   React UI      │ (Port 3000)
-│   Frontend      │
-└────────┬────────┘
-         │ REST API
-┌────────▼────────┐
-│    FastAPI      │ (Port 8000)
-│    Backend      │
-└────┬────────┬───┘
-     │        │
-┌────▼──┐  ┌──▼─────┐
-│ Neo4j │  │ Qdrant  │
-│ Graph │  │ Vectors │
-└───────┘  └─────────┘
-
-┌─────────────────┐
-│  Celery Worker  │
-│  Background Job │
-└─────────────────┘
-     ↑
-┌─────────────────┐
-│  Redis Broker   │
-└─────────────────┘
-```
 
 ##  Quick Start
 
@@ -96,7 +70,7 @@ npm run dev
 - **[API Reference](./API_REFERENCE.md)** - Backend API documentation
 - **[Frontend README](./frontend/README.md)** - Frontend development guide
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **FastAPI** - Web framework
